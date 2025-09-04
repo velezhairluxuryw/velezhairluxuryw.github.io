@@ -358,6 +358,13 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
     
     .hero-logo { width: 144px; }
     .hero-logo-bg { padding: 8px 8px -16px 8px !important; margin-bottom: 1rem; }
+    
+    /* Mobile layout for social media section */
+    .social-media-section { 
+        flex-direction: column !important; 
+        align-items: center !important; 
+        gap: 20px !important; 
+    }
 }
 
 /* Touch-friendly interactions */
