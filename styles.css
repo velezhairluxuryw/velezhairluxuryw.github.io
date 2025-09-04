@@ -60,7 +60,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
 .section-title h2 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 1rem; }
 .section-title p { font-size: 1.1rem; color: var(--gray); max-width: 600px; margin: 0 auto; }
 
-.services { padding: 100px 0; background: var(--bg-light); }
+.services { padding: 30px 0 100px 0; background: var(--bg-light); }
 .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
 .service-card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; transition: var(--transition); overflow: hidden; }
 .service-card:hover { transform: translateY(-10px); }
@@ -71,6 +71,9 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
 .price { font-size: 2rem; font-weight: 700; color: var(--accent); margin-bottom: 1rem; }
 
 .gallery { padding: 100px 0; background: white; }
+
+/* Top gallery specific styling */
+#gallery-top { padding: 20px 0 20px 0; }
     .gallery-carousel {
         margin: 30px 0 60px 0;
         overflow: hidden;
@@ -364,7 +367,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
         flex-direction: column !important; 
         align-items: center !important; 
         gap: 20px !important; 
-        padding-right: 25px !important;
+        padding-right: 15px !important;
     }
     .social-icons {
         gap: 20px !important;
