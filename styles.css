@@ -33,7 +33,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
 .hero-content h1 { font-family: 'Playfair Display', serif; font-size: 4.5rem; margin-bottom: 1rem; font-weight: 900; }
 .hero-subtitle { font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.9; }
 .hero-logo { 
-    width: 200px; 
+    width: 280px; 
     height: auto; 
     margin: 0 auto 2rem; 
     display: block;
@@ -200,7 +200,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
     
     /* Hero Section */
     .hero { height: 80vh; }
-    .hero-logo { width: 150px; }
+    .hero-logo { width: 180px; }
     .hero-logo-bg { padding: 15px; margin-bottom: 1.5rem; }
     .hero-content h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
     .hero-subtitle { font-size: 1.2rem; margin-bottom: 1.5rem; }
@@ -319,7 +319,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
     .nav-container { padding: 0 0.5rem; }
     .container { padding: 0 0.5rem; }
     
-    .hero-logo { width: 120px; }
+    .hero-logo { width: 144px; }
     .hero-logo-bg { padding: 10px; margin-bottom: 1rem; }
 }
 

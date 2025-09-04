@@ -35,9 +35,8 @@
                     </li>
                     <li><a href="#gallery" class="nav-link">Gallery</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#blog" class="nav-link">Blog</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><button class="book-btn" onclick="openBookingModal()">Book Now</button></li>
+                    <li><a href="https://blismo.com/s/velez-hair-luxury-751040/appointments" class="book-btn" target="_blank">Book Now</a></li>
                 </ul>
             </div>
         </nav>
@@ -52,10 +51,20 @@
             <h1>Velez Hair Luxury</h1>
             <p class="hero-subtitle">Premium Hair & Beauty Experience : Salon de belleza</p>
             <div style="text-align: center; margin: 2rem 0;">
-                <a href="#" class="btn btn-primary" onclick="openBookingModal()" style="font-size: 1.2rem; padding: 18px 35px;">
-                    <i class="fas fa-calendar-check" style="margin-right: 10px;"></i>
-                    Book Appointment
-                </a>
+                <div style="margin-bottom: 20px;">
+                    <a href="https://blismo.com/s/velez-hair-luxury-751040/appointments" class="btn btn-primary" target="_blank" style="font-size: 1.2rem; padding: 18px 35px;">
+                        <i class="fas fa-calendar-check" style="margin-right: 10px;"></i>
+                        Book Appointment
+                    </a>
+                </div>
+                <div style="width: 100%; display: flex; gap: 40px; justify-content: flex-end; margin-bottom: 200px; margin-top: -30px; padding-right: 0;">
+                    <a href="https://www.instagram.com/velez_hairluxury/" target="_blank" style="color: #d4af37; font-size: 2rem; text-decoration: none; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/velezbeautysalon/" target="_blank" style="color: #d4af37; font-size: 2rem; text-decoration: none; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
             </div>
             <div class="cta-buttons">
             </div>
@@ -172,20 +181,6 @@
                     <h2>About Velez Hair Luxury</h2>
                     <p>We are a business in beauty and all that it stands for. We have over 30 years in experience and strive to give you the best service and image for you and your lifestyle. Come try us out! Beauty services for the whole family!</p>
                     <p>Our talented team offers comprehensive beauty services including haircuts, beard grooming, makeovers, hair coloring, makeup application, and elegant styling for all ages. We specialize in creating fancy styles and transformations that enhance your natural beauty and boost your confidence. Every stylist brings their unique expertise to ensure you receive personalized attention and exceptional results. We use only the highest quality products to protect and nourish your hair while achieving stunning looks. Our welcoming atmosphere makes every visit feel like spending time with family, where your comfort and satisfaction are our top priorities. We invite you to experience the difference that three decades of passion and dedication can make in your beauty journey.</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <span class="stat-number">5000+</span>
-                            <span class="stat-label">Happy Clients</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">30+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">12</span>
-                            <span class="stat-label">Expert Stylists</span>
-                        </div>
-                    </div>
                 </div>
                 <div style="height: 500px; background: linear-gradient(135deg, rgba(212, 175, 55, 0.8), rgba(244, 231, 193, 0.8)), url('salonimgs/salonradiantpic2.jpg'); background-size: cover; background-position: center; border-radius: 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; position: relative; overflow: hidden;">
                     <div style="position: relative; z-index: 2; text-align: center;">
@@ -197,65 +192,9 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials" id="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>What Our Clients Say</h2>
-                <p>Read reviews from our satisfied customers</p>
-            </div>
-            <div class="testimonial">
-                <div class="testimonial-rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p class="testimonial-text">"Amazing experience! The stylists are incredibly talented and the salon atmosphere is so luxurious. I've never felt more beautiful!"</p>
-                <p class="testimonial-author">- Sarah Johnson</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Blog Section -->
-    <section class="blog" id="blog">
-        <div class="container">
-            <div class="section-title">
-                <h2>Latest Trends & Tips</h2>
-                <p>Stay updated with the latest hair trends and beauty advice</p>
-            </div>
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <div class="blog-image">Hair Trends 2024</div>
-                    <div class="blog-content">
-                        <div class="blog-date">March 15, 2024</div>
-                        <h3 class="blog-title">Top Hair Trends for 2024</h3>
-                        <p class="blog-excerpt">Discover the hottest hair trends that will dominate this year, from bold colors to innovative cuts.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-image">Hair Care Tips</div>
-                    <div class="blog-content">
-                        <div class="blog-date">March 10, 2024</div>
-                        <h3 class="blog-title">Essential Hair Care Tips</h3>
-                        <p class="blog-excerpt">Learn the best practices for maintaining healthy, beautiful hair at home between salon visits.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-image">Bridal Styling</div>
-                    <div class="blog-content">
-                        <div class="blog-date">March 5, 2024</div>
-                        <h3 class="blog-title">Perfect Bridal Hairstyles</h3>
-                        <p class="blog-excerpt">Explore stunning bridal hairstyles that will make you look absolutely perfect on your special day.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -265,7 +204,7 @@
                 <p>Get in touch to book your appointment or ask any questions</p>
             </div>
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-info" style="text-align: center; max-width: 600px; margin: 0 auto;">
                     <h3>Visit Our Salon</h3>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
@@ -296,27 +235,6 @@
                         <span>Mon-Sat: 10AM-7PM, Sun: 10AM-5PM</span>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -329,10 +247,8 @@
                     <h3>Velez Hair Luxury</h3>
                     <p>Experience luxury hair care like never before. Our expert team is dedicated to making you look and feel your absolute best.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/velez_hairluxury/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/velezbeautysalon/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
@@ -350,7 +266,6 @@
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="#blog">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
