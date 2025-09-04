@@ -364,6 +364,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); }
         flex-direction: column !important; 
         align-items: center !important; 
         gap: 20px !important; 
+        padding-right: 40px !important;
     }
     .social-icons {
         gap: 20px !important;
